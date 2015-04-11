@@ -11,12 +11,20 @@ img{
     border-right-style: solid;
     border-bottom-style: solid;
     border-left-style: solid;
+    width:304px;
+    height:228px;
 }
 #slogan{
   text-align: center;
   font-size: 24px;
   font-weight: 100;
   font-style: italic;
+}
+#aboutus{
+	border-top-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: dotted;
 }
 body {
   text-align: left;
