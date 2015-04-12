@@ -25,11 +25,25 @@ img{
     border-right-style: dotted;
     border-bottom-style: dotted;
     border-left-style: dotted;
-    border-style: 1px;
+    border-width: thin;
+    border-color: gray;
 }
 body {
-  text-align: left;
+  text-align: center;
   color: black;
   background: white;
   font-family: Helvetica;
 }
+
+.center{
+    width:200px;
+    margin:0 auto;
+    text-align:left;
+}
+ul{
+    list-style-type: square;
+}    
+
+
+  
+
