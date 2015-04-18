@@ -2,23 +2,26 @@ h1{
   text-align: left;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-family: Helvetica;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 500;
   border-bottom-style: solid;
-  font-weight: 100;
+  border-width: thin;
 }
 img{
    	border-top-style: solid;
     border-right-style: solid;
     border-bottom-style: solid;
     border-left-style: solid;
+    border-width: thin;
     width:304px;
     height:228px;
 }
 #slogan{
   text-align: center;
-  font-size: 24px;
-  font-weight: 100;
+  font-size: 18px;
+  font-weight: bold;
   font-style: italic;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 #aboutus{
 	border-top-style: dotted;
@@ -27,21 +30,22 @@ img{
     border-left-style: dotted;
     border-width: thin;
     border-color: gray;
+    font-weight: bold;
 }
 body {
   text-align: center;
   color: black;
   background: white;
-  font-family: Helvetica;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 400;
 }
 
 .center{
-    width:200px;
+    width:230px;
     margin:0 auto;
-    text-align:left;
 }
 ul{
-    list-style-type: square;
+  text-align: left;
 }    
 
 
