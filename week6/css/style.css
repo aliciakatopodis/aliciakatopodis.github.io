@@ -1,0 +1,144 @@
+#wrapper{
+  width: 900px;
+margin: 0 auto;
+}
+header{
+  width: 900px;
+  padding: 0;
+}
+header a{
+  text-decoration: none;
+  color: black;
+  padding: 1em; 
+}
+h1{
+  font-family: 'Questrial', sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  padding: 0;
+  float: left;
+
+}
+nav{
+  font-family: 'Questrial', sans-serif;
+  text-align: right;
+  border-bottom: 1px black solid;
+  float: right;
+}
+p{
+  clear: both;
+  display: block;
+  padding-bottom: 5px;
+  font-family: 'Questrial', sans-serif;
+}
+.photos{
+  margin-left: 7em;
+  margin-right:7em;
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+#outer, #interface, #fiat, #casestudy{
+  float: left;
+  content: center;
+
+}
+#outer a {
+  display: block;
+  width: 325px;
+  height:325px;
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: transparent;
+  float: left;
+}
+
+#outer a:hover {
+  background-color: rgba(0,0,0,.6);
+  color: white;
+}
+
+#outer {
+  width: 325px;
+  height:325px;
+  background-image: url("http://i.imgur.com/F815ujN.jpg");
+
+}
+#interface a {
+  display: block;
+  width: 325px;
+  height:325px;
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: transparent;
+  float: left;
+
+}
+
+#interface a:hover {
+  background-color: rgba(0,0,0,.6);
+  color: white;
+}
+
+#interface {
+  width: 325px;
+  height:325px;
+  background-image: url("http://i.imgur.com/USZr7vz.jpg");
+}
+#fiat a {
+  display: block;
+  width: 325px;
+  height:325px;
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: transparent;
+  float: left;
+}
+
+#fiat a:hover {
+  background-color: rgba(0,0,0,.6);
+  color: white;
+}
+#fiat {
+  width: 325px;
+  height:325px;
+  background-image: url("http://i.imgur.com/jPEndly.jpg");
+}
+
+#casestudy a {
+  display: block;
+  width: 325px;
+  height:325px;
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: transparent;
+  float: left;
+}
+
+#casestudy a:hover {
+  background-color: rgba(0,0,0,.6);
+  color: white;
+}
+#casestudy {
+  width: 325px;
+  height:325px;
+  background-image: url("http://i.imgur.com/5x74zsR.jpg");
+}
+#resume{
+  display: block;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  padding: 1em 0;
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
+  clear: both;
+}
