@@ -1,0 +1,129 @@
+body {
+	background-color: #FFFFF0;
+	font-family: 'Muli', sans-serif;
+	color: black;
+	font-size: 60px;
+	line-height: 1.4px;
+}
+nav {
+	background-color: black;
+}
+nav a {
+	color: #FFFFF0;
+	font-family: 'Muli', sans-serif;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+#innernav {
+	display: none;
+}
+#mobile {
+	display: block;
+	font-size: 2em;
+}
+nav:hover #innernav {
+	display: block;
+}
+h1 {
+	text-align: center;
+}
+h2 {
+	font-size: 1em;
+	padding: 1em;
+}
+#relation {
+	font-family: 'Muli', sans-serif;
+	font-style: bold;
+	color: rgba(204, 0, 0, 1);
+	font-size: 60px;
+}
+#shop { 
+	font-family: 'Muli', sans-serif;
+	font-style: bold;
+	color: black;
+	font-size: 60px;
+	}
+#subtitle{
+	font-family: 'Muli', sans-serif;
+	text-align: center;
+	font-size: 1em;
+	padding-bottom: 4em;
+}
+.how {
+	display: inline-block;
+	text-align: center;
+}
+.howsteps {
+font-family: 'Muli', sans-serif;
+font-size: 1em;
+display: block;
+text-align: center;
+padding: 1em;
+padding-top: 0;
+}
+.wrapper {
+	text-align: center;
+	margin-top: -2em;
+}
+footer {
+	font-family: 'Muli', sans-serif;
+}
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+}
+@media only screen and (min-width: 800px) {
+	#mobile {
+		display: none;
+	}
+	#innernav {
+		display: block;
+	}
+	nav a {
+		width: 25%;
+		float: left;
+		padding: .5em 0;
+	}
+	nav a:hover {
+		color: rgba(204, 0, 0, 1);
+	}
+	body {
+		display: block;
+		font-size: 2em;
+		font-family: 'Muli', sans-serif;
+		text-align: center;
+		padding: .25em 0;
+	}
+	.how { 
+		font-size: 1em;
+	}
+	img {
+		width: 33.333%;
+	}
+	h1 {
+		font-size: 4em;
+	}
+	h2 {
+		font-size: 1.25em;
+	}
+}
+@media only screen and (max-width: 480px){
+	#relation, #shop {
+		font-size: 3em;
+	}
+	/*.how {
+	font-size: .75em;
+	float: center;
+	clear: both;
+	}*/
+
+	img{
+		width: 100%;
+	}
+}
+
