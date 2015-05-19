@@ -66,7 +66,7 @@ padding-top: 0;
 	text-align: center;
 	margin-top: -2em;
 }
-footer {
+#footer {
 	font-family: 'Muli', sans-serif;
 }
 .clearfix:after {
@@ -115,6 +115,9 @@ footer {
 @media only screen and (max-width: 480px){
 	#relation, #shop {
 		font-size: 3em;
+	}
+	img {
+		max-width: 50px;
 	}
 	/*.how {
 	font-size: .75em;
