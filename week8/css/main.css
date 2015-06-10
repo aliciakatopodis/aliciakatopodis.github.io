@@ -31,10 +31,20 @@ h1 {
 	/*font-weight: bold;*/
 }
 h2 {
-	font-size: 1em;
+	font-size: 1.25em;
+	font-weight: 2em;
 	padding: 1em;
 	font-family: 'Muli', sans-serif;
 	text-align: center;
+}
+h3 {
+	font-size: 1em;
+	border-bottom: solid;
+	font-family: 'Muli', sans-serif;
+	text-align: left;
+}
+p {
+	text-align: left;
 }
 #relation {
 	color: rgba(204, 0, 0, 1);
@@ -63,6 +73,9 @@ h2 {
 .wrapper {
 	text-align: center;
 }
+a {
+	color: black;
+}
 footer {
 	font-family: 'Muli', sans-serif;
 	font-size: .5em;
@@ -76,6 +89,7 @@ footer {
 	height: 0;
 	font-size: 0;
 }
+
 @media only screen and (min-width: 480px){
 	#relation, #shop {
 		font-size: 1.25em;
@@ -88,7 +102,7 @@ footer {
 		width: 33.333%;
 		float: left;
 	}
-	img { 
+	.examples { 
 	width: 100%; 
 	}	
 
