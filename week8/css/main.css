@@ -2,7 +2,7 @@ body {
 	background-color: #FFFFF0;
 	font-family: 'Muli', sans-serif;
 	color: black;
-	font-size: 24px;
+	font-size: 22px;
 	line-height: 1.4;
 }
 nav {
@@ -46,6 +46,12 @@ h3 {
 p {
 	text-align: left;
 }
+ul {
+	list-style-type: disc;
+	display: inline-block;
+	text-align: left;
+	margin-left: 50px;
+}
 #relation {
 	color: rgba(204, 0, 0, 1);
 	
@@ -75,7 +81,16 @@ p {
 }
 a {
 	color: black;
+	display: block;
+
 }
+/*
+input[type="text"] { }
+textarea {
+}
+input[type="submit"]{
+}
+input[type="reset"] { }*/
 footer {
 	font-family: 'Muli', sans-serif;
 	font-size: .5em;
@@ -89,6 +104,7 @@ footer {
 	height: 0;
 	font-size: 0;
 }
+
 
 @media only screen and (min-width: 480px){
 	#relation, #shop {
@@ -105,6 +121,16 @@ footer {
 	.examples { 
 	width: 100%; 
 	}	
+	a {
+	color: black;
+	display: inline;
+}
+	h1 {
+		font-size: 2em;
+	}
+	h2 {
+		font-size: .75em;
+	}
 
 @media only screen and (min-width: 720px) {
 	#mobile {
